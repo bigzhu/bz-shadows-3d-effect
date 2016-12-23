@@ -1,0 +1,32 @@
+{
+  "name": "bz-base",
+  "version": "2.0.0",
+  "description": "bz-base",
+  "main": "src/Bz.vue",
+  "keywords": [
+    "vue",
+    "component",
+    "bigzhu"
+  ],
+  "author": "bigzhu <vermiliondun@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigzhu/bz-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bigzhu/bz-base/issues"
+  },
+  "homepage": "https://github.com/bigzhu/bz-base#readme",
+  "files": [
+    "src/Bz.vue",
+    "src/assets"
+  ],
+  "scripts": {
+    "dev": "node build/dev-server.js",
+    "test": ""
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
