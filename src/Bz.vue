@@ -2,7 +2,7 @@
     <div class="cont_imgs">
       <div @mousemove="relMouseCoords($event)" data-shx-img="http://assets.fodors.com/destinations/708037/golden-gate-bridge-san-francisco-california-1_main.jpg" data-shx-size="6" >
         <img src="http://assets.fodors.com/destinations/708037/golden-gate-bridge-san-francisco-california-1_main.jpg" class="imagen_ejemplo" alt="" />
-      </div> 
+      </div>
     </div>
 </template>
 
@@ -49,7 +49,7 @@
 <style>
   :root {
     --X-imagen: 5%;
-    --Y-imagen:0%;  
+    --Y-imagen:0%;
   }
 
 
@@ -76,7 +76,7 @@
     color: #777;
     margin-bottom: 20px;
     font-weight: 300;
-  } 
+  }
 
 
   .cont_imgs {
@@ -96,14 +96,12 @@
   }
 
 
-
-
-  div[data-shx-size='1'] { 
-    --Y-imagen:10%;  
+  div[data-shx-size='1'] {
+    --Y-imagen:10%;
   }
 
-  div[data-shx-size='1']:after { 
-    top: var(--Y-imagen); 
+  div[data-shx-size='1']:after {
+    top: var(--Y-imagen);
     -webkit-filter: blur(15px);
     filter: blur(15px);
 
@@ -115,7 +113,7 @@
   }
 
   div[data-shx-size='2']:after {
-    top: var(--Y-imagen); 
+    top: var(--Y-imagen);
     -webkit-filter: blur(15px);
     filter: blur(15px);
 
@@ -127,7 +125,7 @@
     --Y-imagen:13%;
   }
   div[data-shx-size='3']:after {
-    top: var(--Y-imagen); 
+    top: var(--Y-imagen);
     -webkit-filter: blur(25px);
     filter: blur(25px);
 
@@ -182,7 +180,7 @@
 
 
   .cont_imgs > div {
-    position: relative;  
+    position: relative;
     width: 500px;
     margin: 10% auto;
     margin-top: 0px;
